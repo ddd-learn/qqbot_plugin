@@ -29,7 +29,7 @@ class Config(BaseSettings):
 # 请求模块，用于验证
 class Request():
     def __init__(self):
-        self.url = "http://127.0.0.1:9999/api/",
+        self.url = "http://127.0.0.1:9999/api/"
         self.headers = {
             "accept": "application/json",
             "Content-Type": "application/json"
