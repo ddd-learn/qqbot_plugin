@@ -37,7 +37,7 @@ class Request():
 
     def request_api(self):
         response = requests.post(url=self.url, headers=self.headers)
-        if response.status_code == 200:
+        if response.status_code == 422:
             return True
         return False
 
